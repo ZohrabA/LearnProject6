@@ -1,0 +1,349 @@
+@font-face{
+    font-family: "Poppins Bold";
+    src: url(./Poppins-Bold.ttf)
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins Bold";
+}
+
+.flexone{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.setir{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.sira{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.backgroundone{
+    background-image: url(./bg4.jpg);
+    width:100%;
+    height: 1000px;
+    left: 0;
+    top: 0;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    position: relative;}
+    
+    .backgroundtwo{
+        background-color: black;
+    opacity: 50%;
+    width: 100%;
+    color: white;
+    height: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.other{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+    .headone{
+        width:100%;
+    color: white;}
+
+        .headoneo{ width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+        height: 100px;}
+
+.headoneoo{
+    width: 50%;
+    height: 100px;
+}
+.headoneot{
+    width: 50%;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 70px 0 0;
+}
+
+        .headoneoo ul li a{
+            margin:15px;
+            color: white;}
+
+
+        .headoneoo ul{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            color: white;}
+
+            .headoneoo li:hover{
+                border-bottom: 3px solid white;
+                
+              
+            }
+            .headoneth{
+                width: 60%;
+                height: 700px;
+                padding: 0 0 130px 80px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: left;
+            }
+            .headoneth h1{
+                font-size: 80px;
+                margin-top: 40px;
+            }
+
+            .middlew{
+                width: 100%;
+                padding-bottom: 150px;
+                background-color: lightgray;
+            }
+            .middleone{
+                width: 100%;
+            }
+            .middleoneo{
+                width: 100%;
+                font-size: 20px;
+                text-align: center;
+                padding-top: 60px;
+            }
+            .middleoneo h1{
+                font-size: 50px;
+                font-weight: bold;
+                margin-top: 15px;
+            }
+            .middleonet{
+                width: 80%;
+                padding-right: 200px;
+                margin-top: 20px;
+                flex-wrap: wrap;
+            }
+
+            .middleonet svg{
+                font-weight: bold;
+                width: 30px;
+                margin-right: 20px;
+                height: 30px;
+            }
+
+            .middleonet div{
+                width: 30%;
+                display: flex;
+                margin-left: 20px;
+                align-items: center;
+                height: 80px;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .middleoneth{
+                width: 50%;
+                margin: 80px 0 0 300px;
+                padding-bottom: 40px;
+                color: gray;
+            }
+            .middleoneth h1{
+margin: 30px 0 50px 0;
+color: black;
+            }
+
+            .middleonef{
+                width: 100%;
+                display: flex;
+                margin-left: 20px;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .middleonefo{
+                color: gray;
+                line-height: 35px;
+                background-color: white;
+                border: none;
+                width: 380px;}
+
+                .middleonefo h3{
+                    color: black;
+                    margin-right: 15px;
+                }
+                .twenty{
+                    color: black; 
+                    font-size: 30px;
+                  
+                   
+                }
+
+            .middleonefo img{
+                width: 380px;
+           }
+           
+           .threee{
+               width: 100%;
+               display: flex;
+               align-items: center;
+               flex-wrap: wrap;
+               justify-content: flex-start;
+               flex-direction: row;
+           }
+               
+sup{
+    line-height: 0;
+}
+
+           .onee{
+               width: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: flex-start;
+               flex-direction: row;
+           }
+               .twentyy sup{
+                   vertical-align: 1em;
+                   padding-left: 200px;
+               }
+           
+        .threee{
+                   padding-left: 20px;
+               }
+        .onee{
+                   padding-left: 20px;
+               }
+
+               
+    
+               .imagess{
+                   width: 100%;
+                   
+                }
+
+                .ozer{
+                    width: 100%;
+                    height: 700px;
+                    position: fixed;
+                    left: 0;
+                    top: 0;
+                    display: block;
+                    background-size: 100% 100%;
+                    background-image: url(./img1.jpg);
+                    z-index: -1;
+                }
+                .inside{
+                    width: 100%;
+                    height: 800px;
+                    background-color: black;
+                    opacity: 60%;
+                    color: white;
+                    font-size: 50px;
+                    padding-left: 30px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+
+
+
+                .elave{width:100%;
+                background-color: silver;
+            display: flex;
+        flex-direction: column;
+    align-items: center;
+justify-content: center;}
+
+.enside{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+.blood{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+    margin-bottom: 50px;
+}
+.blood img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.bloodo{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    flex-direction: column;
+    background-color: white;
+}
+
+.blyazi{
+    padding: 0 15px;
+}
+.blshek{
+    width: 25%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.blshek h1{
+    font-size: 20px;
+}
+
+.qara{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.qaraone{
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.qaraone a{
+    transition: 1s;
+    color: white;
+}
+.qaraone a:hover{
+    color: red;
+}
